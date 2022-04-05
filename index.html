@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    <!-- <link rel="stylesheet" href="./public/Poppins"> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./public/index.css" />
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <script src="./scripts/toggle.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"
+      integrity="sha512-Tn2m0TIpgVyTzzvmxLNuqbSJH3JP8jm+Cy3hvHrW7ndTDcJ1w5mBiksqDBb8GpE2ksktFvDB/ykZ0mDpsZj20w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo">
+        <img src="./public/logo.svg" alt="" />
+      </div>
+      <div class="menu">
+        <nav class="navbar">
+        <a class="active" href="#home">Home</a>
+        <a href="#product">Product</a>
+        <a href="#featured">Featured</a>
+        <a href="#about">About Us</a>
+      </nav>
+      <div class=".search-form">
+          <input  type="search" id="search-box" name="search" placeholder="  Search" />
+      </div>
+      </div>
+      <div class="fass">
+
+          <i id="search-btn" class="fas fa-search fa-lg" style=" margin-left: 10px;"></i>
+          <span>
+            <i class="fas fa-cart-plus fa-lg" style=" margin-left: 15px;"></i> 
+            <span class="fa-layers-counter fa-3x" style="left:25px; width:30px; background:Tomato">1,419</span>
+        </span>
+
+          <div id="menu-btn">
+            <i class="fas fa-bars fa-lg" style=" margin-left: 39px;"></i>
+          </div>
+        </div>
+      </div>
+
+    <div class="midBody">
+      <img
+        src="./public/unsplash_1vy2QcZd5FU.png"
+        alt=""
+        style="width: 100vw;"
+      />
+      <div class="midText">
+        <div class="app-header d-flex" style="white-space: nowrap;">
+          <h1>
+            Run Your World With <br />
+            the Right
+          </h1>
+          <span class="shoes">Shoes.</span>
+        </div>
+        <p>
+          Never be caught unfresh at any moment, follow the ever evolving
+          fashion<br />and get the right sneakers today.
+        </p>
+        <a type="button" class="shop" href="#"><i class="fas fa-shopping-bag" style="margin-right:16px"></i>Shop Now</a>
+      </div>
+    </div>
+    <div class="body2">
+      <h3 style="margin-left: 38vw; top: 920px;">WHY SHOP SNEAKYLEGS</h3>
+      <div class="feats">
+        <div class="feat">
+          <img src="./public/delivery.png" alt="" />
+          <h2>QUICK DELIVERY</h2>
+          <p>
+            Get your items shipped to you within<br /><span> minutes.</span>
+          </p>
+        </div>
+        <div class="feat">
+          <img src="./public/payment.png" alt="" />
+          <h2>SECURED PAYMENT</h2>
+          <p>All mode of payments are <br /><span> safe and trusted.</span></p>
+          <p></p>
+        </div>
+
+        <div class="feat">
+          <img src="./public/verified.png" alt="" />
+          <h2>AUTHENTICITY GUARANTEED</h2>
+          <p>
+            Products sold at sneakylegs are <br /><span> 100% original.</span>
+          </p>
+          <p></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="cards" id="categories">
+      <h3 style="text-align: center; font-size: 1.5rem;">CATEGORIES</h3>
+      <div class="column">
+        <Card
+          title="women sneakers"
+          img-Url="./public/womens.png"
+          color="#D6B8AD"
+        ></Card>
+        <Card
+          title="men sneakers"
+          img-Url="./public/mensneaks.png"
+          color="#FCFCFC"
+        ></Card>
+        <Card
+          title="best sellers"
+          img-Url="./public/bests.png"
+          color="#A7A7A7"
+        ></Card>
+        <Card
+          title="new arrivals"
+          img-Url="./public/news.png"
+          color="#AA7D66"
+        ></Card>
+      </div>
+      <div style="margin-top: 58px;" class="featured">
+        <h3 style="text-align: center;">FEATURED ITEM</h3>
+        <div class="display">
+          <div class="col-one">
+            <h4>New Season</h4>
+            <h3 class="shoe-title">adidas <span>YEEZY</span></h3>
+            <div id="expand" class="description">
+              <p>
+                Also nicknamed 'Sand' sneakers <br />
+                It doesn't get more futuristic than the RNNR 'Sand' sneakers
+                from<br />
+                adidas YEEZY. Crafted from EVA foam and harvested algae, this
+                pair is<br />
+                ultra lightweight and one of the market's most progressive step
+                out in<br />
+                unique style.
+              </p>
+              <p>
+                Originally made of rubber, with a perforated design, almond toe
+                and<br />
+                slip on style. These
+                <a onclick="expand()" href="#expand"
+                  >sneakers help reduce the effort of putting on a shoe.</a
+                >
+              </p>
+              <p><strong>PRICE: $451.00</strong></p>
+            </div>
+          </div>
+          <button type="submit">BUY NOW</button>
+          <button class="button2" id="toCart" onclick="addCart()">
+            ADD TO CART
+          </button>
+          <div class="col-two">
+            <div class="image">
+              <img src="./public/Rectangle57.png" />
+              <img  src="./public/adidass.png" />
+              <i class="fas fa-heart"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="testimonies">
+  <h3 style="text-align: center;">  TESTIMONIALS</h3>
+  <div class="testimony">
+    <h4> Joseph Blaze<h4>
+    <p>I really love the sneakers i got from this store, very long lasting and pretty inexpensive.</p>
+  </div>
+    <div class="testimony">
+      <h4> Bolatito<h4>
+
+      <p>They deliver expressly, got my sneakers the same day i placed an order. Also love how original the product is.</p>
+</div>
+      <div class="testimony">
+      <h4>  Kwame Ama<h4>
+<p>This is my go to plug for all things sneakers cause their customer service is top notch.</p></div>
+</div>
+    <div class="footer">
+      <div class="foot-logo">
+        <img src="./public/logo.svg" alt="" />
+      </div>
+      <div class="footer-col">
+        <h1>CONTACT US</h1>
+        <p>15 Palm Hall Street, Lekki Phase 1,Lagos, Nigeria.</p>
+        <p><img src="./public/phone.png" alt="" />(+234) 5584 7963</p>
+        <p><img src="./public/ep_message.png" alt="" />info@sneakylegs.com</p>
+      </div>
+      <div class="footer-col">
+        <h1>COMPANY</h1>
+        <p>Products</p>
+        <p>Features</p>
+        <p>About Us</p>
+      </div>
+      <div class="footer-col">
+        <h1>QUICK LINKS</h1>
+        <p>FAQ</p>
+        <p>Privacy Policy</p>
+        <p>Terms & Conditions</p>
+      </div>
+      <div class="footer-col">
+        <h1 style="margin-left: -120px;">SUBSCRIBE TO OUR NEWSLETTER</h1>
+        <input type="text" placeholder="Enter Your Email" />
+        <button type="submit">SUBSCRIBE</button>
+        <div class="socials">
+          <img src="./public/facebook.png" alt="" />
+          <img src="./public/instagram.png" alt="" />
+          <img src="./public/twitter.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <script src="./scripts/main.js"></script>
+  </body>
+  <div class="license">
+    <p>
+      <img src="./public/Copyright.png" alt="" />2022 SneakylegsAfrica, All
+      rights reserved
+    </p>
+  </div>
+</html>
