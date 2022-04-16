@@ -308,8 +308,8 @@ h1 {
 }
 .image svg {
   position: absolute;
-  top: 600px;
-  left: 40vw;
+  top: 810px;
+  left: 32vw;
   color: red;
 }
 .shoes-samples {
@@ -411,7 +411,7 @@ h1 {
   width: 100vw;
   height: 346px;
   left: 0px;
-  top: 3742px;
+  top: 3892px;
   display: table;
   clear: both;
   color: #ffffff;
@@ -488,7 +488,7 @@ h1 {
   height: 54.5px;
   border-top: 2px white;
   background: rgba(0, 0, 0, 0.7);
-  top: 4093px;
+  top: 4233px;
   font-size: 2rem;
   text-align: center;
   color: #ffffff;
@@ -603,7 +603,7 @@ h1 {
     font-size: 2rem;
   }
   .license {
-    top: 3660px;
+    top: 3800px;
   }
 }
 @media (max-width: 1000px) {
@@ -671,7 +671,7 @@ h1 {
     margin-top: 98vh;
   }
   .image svg {
-    top: 680px;
+    top: 800px;
     left: 32vw;
     color: red;
   }
