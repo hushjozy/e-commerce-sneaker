@@ -517,7 +517,7 @@ h1 {
   .shoes-samples {
     position: absolute;
     left: 66vw;
-    top: 1400px;
+    top: 1490px;
   }
   .the-cover {
     position: absolute;
@@ -555,17 +555,17 @@ h1 {
   }
   .image svg {
     position: absolute;
-    top: 600px;
+    top: 840px;
     left: 40vw;
     color: red;
   }
   .testimonies {
     position: absolute;
-    top: -10vh;
+    top: 380px;
     left: -90px;
   }
   .testimonies h3 {
-    margin-left: 15vw;
+    margin-left: 18vw;
   }
   .testimony {
     margin-bottom: 32px;
@@ -590,7 +590,7 @@ h1 {
     font-weight: 300;
   }
   .footer {
-    margin-top: -500px;
+    margin-top: 0px;
   }
   .footer-col img {
     width: 40px;
@@ -603,7 +603,7 @@ h1 {
     font-size: 2rem;
   }
   .license {
-    top: 3800px;
+    top: 4300px;
   }
 }
 @media (max-width: 1000px) {
@@ -671,14 +671,14 @@ h1 {
     margin-top: 98vh;
   }
   .image svg {
-    top: 800px;
+    top: 1100px;
     left: 32vw;
     color: red;
   }
   .shoes-samples {
     position: absolute;
     left: 66vw;
-    top: 1300px;
+    top: 1400px;
   }
   .the-cover {
     position: absolute;
@@ -703,17 +703,17 @@ h1 {
     left: -59px;
   }
   .testimonies h3 {
-    left: 35vw;
+    left: 32vw;
   }
   .testimony {
-    margin-left: 7vw;
+    margin-left: 12vw;
     width: 63vw;
     text-align: center;
     font-size: 2.6rem;
     font-weight: 400;
   }
   .footer {
-    margin-top: -563px;
+    margin-top: -463px;
   }
   .footer-col {
     width: 20vw;
@@ -791,6 +791,9 @@ h1 {
     margin: 1.5rem;
     padding: 0.5rem;
     font-size: 2.5rem;
+  }
+  .license {
+    top: 3950px;
   }
 }
 @media (max-width: 768px) {
@@ -920,7 +923,7 @@ h1 {
   .shoes-samples {
     position: absolute;
     left: 66vw;
-    top: 1340px;
+    top: 1290px;
   }
   .the-cover {
     position: absolute;
@@ -960,12 +963,24 @@ h1 {
   .footer {
     top: 3795px;
   }
+  #subscribe {
+    margin-left: 6vw;
+  }
+  #subscribe input {
+    top: 15vh;
+    font-size: 1.3rem;
+  }
+  .license {
+    top: 3945px;
+  }
 }
 @media (max-width: 450px) {
   html {
     font-size: 50%;
+    width: 100%;
   }
   body {
+    width: 100%;
   }
   .header {
     padding: 1.5rem 2rem;
@@ -980,7 +995,8 @@ h1 {
   .search {
     position: absolute;
     top: 75px;
-    left: 24vw;
+    left: 39vw;
+    height: 35px;
   }
   input {
     width: 35vw;
@@ -992,6 +1008,10 @@ h1 {
     font-size: 1.8rem;
     position: absolute;
     left: 22.5rem;
+  }
+  .toggle-btn {
+    position: absolute;
+    top: -1.8vh;
   }
   .menuOn {
     display: inline;
@@ -1106,8 +1126,8 @@ h1 {
     top: 2vh;
   }
   .image svg {
-    top: 690px;
-    left: 20vw;
+    top: 1150px;
+    left: 15vw;
     color: red;
   }
   .shoes-samples {
@@ -1153,20 +1173,20 @@ h1 {
     align-items: center;
   }
   .footer {
-    top: 3908px;
+    top: 3408px;
     width: 100vw;
   }
   .footer-col {
     width: 20vw;
-    margin-left: 4vw;
+    margin-left: 0vw;
   }
   .footer-col h1 {
     font-size: 1.2rem;
-    margin-left: 2vw;
+    margin-left: 0vw;
   }
   .footer-col p {
     font-size: 1.2rem;
-    margin-left: 2vw;
+    margin-left: 1vw;
   }
   .footer-col img {
     position: inherit;
@@ -1176,30 +1196,40 @@ h1 {
     height: 20px;
   }
   #subscribe {
-    width: 15vw;
-    margin-left: 50vw;
+    width: 18vw;
+    margin-left: 14vw;
+    margin-top: -16px;
+  }
+  #subscribe h1 {
+    left: 10vw;
+    padding: 20px;
+    line-height: 2.5rem;
   }
   #subscribe button {
     position: absolute;
-    left: 50vw;
-    top: 385px;
+    left: -15vw;
+    top: 69px;
     width: 4vw;
     height: 4px;
     font-size: 1.2rem;
   }
   #subscribe-input {
     position: absolute;
-    left: 50vw;
-    top: 365px;
-    padding: 0;
-    width: 40vw;
+    left: -25vw;
+    top: 100px;
+    padding-left: 6px;
+    width: 25vw;
     height: 4vh;
     font-size: 1.2rem;
   }
+  #subscribe .socials {
+    margin-left: -120px;
+  }
   .license {
     position: absolute;
-    margin-top: -850px;
-    height: 9px;
+    top: 3450px;
+    height: 40px;
+    width: 100vw;
   }
 }
 @media (max-width: 240px) {
