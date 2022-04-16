@@ -836,7 +836,7 @@ h1 {
   .header .search-form input {
     height: 100%;
     width: 100%;
-    fon-size: 1.6rem;
+    font-size: 1.6rem;
   }
 
   .menuOn {
@@ -1120,14 +1120,14 @@ h1 {
     font-size: 1.4rem;
   }
   .image img {
-    width: 56vw;
-    height: 22vh;
-    margin-left: -26vw;
-    top: 2vh;
+    width: 33vw;
+    height: 18vh;
+    margin-left: 6vw;
+    margin-top: 100vh;
   }
   .image svg {
-    top: 1150px;
-    left: 15vw;
+    top: 940px;
+    left: 25vw;
     color: red;
   }
   .shoes-samples {
@@ -1173,7 +1173,7 @@ h1 {
     align-items: center;
   }
   .footer {
-    top: 3408px;
+    top: 3608px;
     width: 100vw;
   }
   .footer-col {
@@ -1208,7 +1208,7 @@ h1 {
   #subscribe button {
     position: absolute;
     left: -15vw;
-    top: 69px;
+    top: 94px;
     width: 4vw;
     height: 4px;
     font-size: 1.2rem;
@@ -1223,11 +1223,12 @@ h1 {
     font-size: 1.2rem;
   }
   #subscribe .socials {
+    margin-top: 170px;
     margin-left: -120px;
   }
   .license {
     position: absolute;
-    top: 3450px;
+    top: 3600px;
     height: 40px;
     width: 100vw;
   }
